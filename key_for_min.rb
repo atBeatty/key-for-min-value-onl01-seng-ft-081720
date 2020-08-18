@@ -7,10 +7,13 @@ values = []
     values << value
   end
   smallest_value = values[0]
-  values.collect do |val|
-    val < smallest_value
+  values.each do |val|
+    if val < smallest_value
+      smallest_value = val
+    end
   end
 
-  
+  name_hash.each do |key, value|
+    if
 
 end
