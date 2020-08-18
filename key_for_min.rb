@@ -10,6 +10,7 @@ values = []
     if values.size == 0
       return nil
     end
+    break
   end
   smallest_value = values[0]
   values.each do |val|
