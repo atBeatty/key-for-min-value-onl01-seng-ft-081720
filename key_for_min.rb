@@ -14,6 +14,9 @@ values = []
   end
 
   name_hash.each do |key, value|
-    if
+    if value == smallest_value
+      return key
+    end
+    
 
 end
