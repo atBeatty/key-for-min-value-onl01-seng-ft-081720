@@ -17,6 +17,7 @@ values = []
     if value == smallest_value
       return key
     end
-    
+  end
+
 
 end
