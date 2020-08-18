@@ -7,5 +7,9 @@ values = []
     values << value
   end
   smallest_value = values[0]
-  if 
+  values.collect do |val|
+    val < smallest_value
+  end
+
+
 end
