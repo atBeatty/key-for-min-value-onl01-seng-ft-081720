@@ -7,10 +7,9 @@ values = []
 
   name_hash.each do |key, value|
     values << value
-    if values.length == 0
+    if values.size == 0
       return nil
     end
-    
   end
   smallest_value = values[0]
   values.each do |val|
